@@ -1,0 +1,81 @@
+/*GENERAL*/
+body{background-color:#061249;
+     color:white; display:flex;
+     flex-direction:column;
+     align-items:center; 
+     justify-content:space-arround;
+     gap:20px; font-style: normal;
+}
+.contenaire{
+        min-width:350px;min-height: 500px;
+        background-color:#040D37;
+        border:1px solid #000;
+        border-radius:40px;
+        box-shadow:0 0 2px #002DFE;
+        font-size:18px;
+        display: flex;flex-direction:column;
+        align-items:center;
+        justify-content:space-around;padding-top:20px;
+}
+header{width:375px;display:flex;
+       justify-content: center;
+}
+header,.contenaire{margin:auto;}
+img{width:170px;height:auto;
+    border-radius:50%;
+    box-shadow: 0 0 10px #fff;
+}
+.item{display:flex ; flex-direction:column;
+      align-items:center; 
+}
+.item1{font-weight:bold;}
+.item2{margin-bottom:60px;font-style: italic;}
+button{width: 120px;height:40px;
+       border:1px solid #000;
+       border-radius:15px;
+       background-color:#040F7D;
+       color:#fff;font-size:18px;
+       font-weight:bold;box-shadow:0 0 1px #0396FB;
+       transition: transform 0.2s ease;
+}
+button:active {transform: scale(1.15)}
+/*PAGE 2 */
+.contenaire_2{padding-top: 0;height:600px;
+}
+.img_2{width: 150px;height:150px;
+    border-radius:50%;
+}
+.item_2{display:flex;flex-direction:row;          gap:20px;font-weight:bold;}
+.loader{display:none;width:30px;height:30px;
+border-radius:50%;border:3px solid #A1A1A1;
+border-top:3px solid #fff; animation:spin 2s infinite alternate ease;
+}
+@keyframes spin{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+}
+/* PAGE 3 */
+.contenaire_3{padding-top: 0;padding-left:20px;height:600px;}
+.img_3{width: 100px;height:100px;
+    border-radius:50%;
+}
+.item_3{display:flex;flex-direction:row;        justify-content:space-around;font-weight:bold;}
+blockquote{font-size:14px;}
+.credit{font-size:10px;opacity:0.5;font-family: static; margin-bottom: 50px;}
+/* PAGE 4*/
+.img_4{width: 120px;height:120px;
+    border-radius:15%;
+}
+.contenaire_4{ font-size: 12px;}
+.head{text-decoration: underline;font-weight: bold;}
+
+.progress{width:50px;height:10px;border:3px solid #F4EEEE;border-radius:8px;display:inline-block;overflow: hidden;}
+
+.progress-bar{width:80%;height:100%;background-color:#35CCFF;
+}
+.info{margin-left:20px;}
+.project{display:flex;flex-direction:column;align-items:center;}
+.low{background-color:#F70000;width:5%;}
+.half{background-color:#64E1FF;}
+.high{background-color:#8DFF64;width: 100%;}
+
